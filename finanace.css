@@ -1,0 +1,113 @@
+ /* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background and font */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #d0e6f9); /* Soft gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Styling */
+h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Income Input Section */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    font-size: 1rem;
+    color: #34495e;
+}
+
+.input-section input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.input-section button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 85%;
+}
+
+.input-section button:hover {
+    background-color: #2980b9;
+}
+
+/* Expense List Styling */
+h3 {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+#expenseList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#expenseList li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+/* Budget Summary */
+.budget-summary {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.budget-summary p {
+    margin-bottom: 10px;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
